@@ -1,0 +1,119 @@
+# This is the Vpath; as my source directory is in the src folder - all the .c files
+#folder structure
+#Gif_Utility
+#-->src/*.c
+#-->include/*.h
+VPATH = src:include:objects
+#CFLAGS = -I ./include -Wall 
+CFLAGS = -Wall 
+#Prefix; since I am cross-compiling**/
+prefix=mipsel-linux-
+
+
+OBJS =./objects
+# Look at the CFLAGS here; it has -DDEBUG because in my code, I have #ifdef DEBUG
+# Look at the CFLAGS here; -Wall : To generate all the compiler warnings.
+# include is required as my compilation depends on the .h files.
+
+# The LD flags to link the shared objects 
+LDFLAGS= -g 
+#in my mini-project, I am using maths library, Thus, I have lm.
+# lc to link my main function with crt1.o
+
+#what is the compiler, am I using.
+#This is a good practice since I can modify these flags when cross-compiling.
+export cc="/export/home/joshis1/Sky_NZ/D183_Alignment/tools/toolchains/i386/Linux/broadcom/7231/stbgcc-4.5.3-1.3/bin/$(prefix)gcc"
+INC= -I/export/home/joshis1/Sky_NZ/D183_Alignment/tools/toolchains/i386/Linux/broadcom/7231/stbgcc-4.5.3-1.3/mips-linux-uclibc/sys-root/usr/include -I./include
+#PATH for the LIBS 
+#This might be useful while cross-compiling.
+LIBS= -L/export/home/joshis1/Sky_NZ/D183_Alignment/tools/toolchains/i386/Linux/broadcom/7231/stbgcc-4.5.3-1.3/mipsel-linux-uclibc/sys-root/lib -lm -lc
+
+#This is the main rule that will be called
+# I have two flavours of make - one for release, and other for debug
+# The target_dbg is dependent on ./obj_dbg/*.o
+# That is all the *.o in the ./obj_dbg
+#how to get the *.o; use pattern substitute.
+#it says - whatever files in the directory src is there.. substitute with ./obj_dbg/*.o
+#It says the wildcard to look here is ./src/*.c
+#As it needs the ./obj_dbg/%.o
+#The makefile will look for the rule ./obj_dbg/%.o
+# -o specifies the output file to be created - here it is gif_dbg
+# link the .o with gcc and then link the dynamic libraries too. This will create the final image- gif_dbg.
+
+target_mips_dbg: $(patsubst ./src/%.c,./obj_mips_dbg/%.o,$(wildcard ./src/*.c))
+	@echo "Target main rule__dbg"
+	$(cc) $(patsubst ./src/%.c,./obj_mips_dbg/%.o,$(wildcard ./src/*.c)) $(LIBS) -o gif_dbg_mips 
+
+
+#Here the rule is available 
+#Now this rules depends on the %.c files in the src directory.
+# Thus, the first line states the dependencies.
+#mkdir -p ./obj_dbg. If this directory doesn't exist,then create it.
+#rule to create .o now,
+# $(cc) -> compiler, CFLAGS -> Remember, You need -I ./include to build the source code. This contains the header files.
+# $(LDFLAGS) -> Here, I have specified -g option in LDFLAGS, This is to get the debug symbols- to debug it.
+# -c : This produces the .o files.
+# $< : This is the automatic variable, it means that the value is ./src/%.c specified in the first line of this rule.
+# $@ : This is the automatic variable, it means that the value of output is ./obj_dbg/%.o
+# -o : This specifies that the following this will be the output file.
+# -DDEBUG : I have #ifdef DEBUG in my code, with the -DDEBUG. This flag DDEBUG will be enabled.
+# In release build, I don't need -DDEBUG flag,since I don't want any debug prints  
+
+./obj_mips_dbg/%.o: ./src/%.c
+	@echo "I am called first..dbg"
+	@mkdir -p ./obj_mips_dbg
+	$(cc) $(CFLAGS) $(INC) $(LDFLAGS) -DDEBUG -c $< -o $@ 
+
+
+# Similarly,Everthing is done for release target
+# Remember, here the obj folder is different, because we are "not" generating the .o with the debug symbol i.e. -g.
+# Look at the LDFLAGS, which is not available here. no -g option here.
+# You can see the size of the gif and gif_dbg image formed. 
+# The debug image is larger in size than the release image.
+
+target_mips: $(patsubst ./src/%.c,./obj_mips/%.o,$(wildcard ./src/*.c))
+	@echo "Target main rule__rel"
+	$(cc) $(patsubst ./src/%.c,./obj_mips/%.o,$(wildcard ./src/*.c)) $(LIBS) -o gif_mips 
+
+
+	
+./obj_mips/%.o: ./src/%.c
+	@echo "I am called first..release"
+	@mkdir -p ./obj_mips
+	$(cc) $(CFLAGS) $(INC) -c $< -o $@
+
+ 	
+	
+#It is always better to write a PHONY rule for a rules like clean.
+#It may happen that in source sandbox, you have a clean file. This may invoke the clean file.
+#In order to prevent invoking a clean file during make clean; We give this general rule as PHONY
+#PHONY tells the MAKEFILE that there is a rule clean, not a file called clean.
+#Generally use PHONY for all, install, clean, distclean, 
+.PHONY: clean
+clean: 
+	@echo "cleaning Mips everything"
+	@rm -f gif_mips
+	@echo "Deleting obj_mips"
+	@rm -vrf ./obj_mips
+	@echo "Deleting obj_dbg_mips"
+	@rm -vrf ./obj_dbg_mips/
+	@rm -f gif_dbg_mips
+	
+target_mips_clean:
+	@echo "clean release target"
+	@rm -f ./obj_mips/*.o
+	@rm -f gif_mips
+
+target_mips_dbg_clean:
+	@echo "clean debug target"
+	@rm -f ./obj_dbg/*.o
+	@rm -f gif_dbg
+	
+	
+everything:
+	@echo "Building the debug Mips image"
+	@make -f Mips_Makefile target_mips_dbg
+	@echo "Now building the release Mips image"
+	@make -f Mips_Makefile target_mips	
+
+

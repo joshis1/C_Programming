@@ -1,0 +1,417 @@
+Performing C SOURCE FILE Test C_Wheader_guard_VALID failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_455a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_455a8.dir/build.make CMakeFiles/cmTC_455a8.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_455a8.dir/src.c.o
+/usr/bin/cc    -std=gnu99  -DC_Wheader_guard_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wheader-guard -o CMakeFiles/cmTC_455a8.dir/src.c.o   -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wheader-guard'
+CMakeFiles/cmTC_455a8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_455a8.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_455a8.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_455a8/fast' failed
+make: *** [cmTC_455a8/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wcomma_VALID failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b32b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b32b8.dir/build.make CMakeFiles/cmTC_b32b8.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b32b8.dir/src.c.o
+/usr/bin/cc    -std=gnu99  -DC_Wcomma_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wcomma -o CMakeFiles/cmTC_b32b8.dir/src.c.o   -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wcomma'
+CMakeFiles/cmTC_b32b8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b32b8.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b32b8.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b32b8/fast' failed
+make: *** [cmTC_b32b8/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wshorten_64_to_32_VALID failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ac43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ac43.dir/build.make CMakeFiles/cmTC_3ac43.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ac43.dir/src.c.o
+/usr/bin/cc    -std=gnu99  -DC_Wshorten_64_to_32_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wshorten-64-to-32 -o CMakeFiles/cmTC_3ac43.dir/src.c.o   -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_3ac43.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3ac43.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3ac43.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3ac43/fast' failed
+make: *** [cmTC_3ac43/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_Wunused_const_variable_VALID failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_42388/fast"
+/usr/bin/make -f CMakeFiles/cmTC_42388.dir/build.make CMakeFiles/cmTC_42388.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42388.dir/src.c.o
+/usr/bin/cc    -std=gnu99  -DC_Wunused_const_variable_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wunused-const-variable -o CMakeFiles/cmTC_42388.dir/src.c.o   -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wunused-const-variable'
+CMakeFiles/cmTC_42388.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_42388.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_42388.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_42388/fast' failed
+make: *** [cmTC_42388/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wheader_guard_VALID failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fdf6e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fdf6e.dir/build.make CMakeFiles/cmTC_fdf6e.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fdf6e.dir/src.cxx.o
+/usr/bin/c++     -DCXX_Wheader_guard_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wheader-guard -o CMakeFiles/cmTC_fdf6e.dir/src.cxx.o -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wheader-guard'
+CMakeFiles/cmTC_fdf6e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fdf6e.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_fdf6e.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fdf6e/fast' failed
+make: *** [cmTC_fdf6e/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wcomma_VALID failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b518/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b518.dir/build.make CMakeFiles/cmTC_1b518.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b518.dir/src.cxx.o
+/usr/bin/c++     -DCXX_Wcomma_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wcomma -o CMakeFiles/cmTC_1b518.dir/src.cxx.o -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wcomma'
+CMakeFiles/cmTC_1b518.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1b518.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1b518.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1b518/fast' failed
+make: *** [cmTC_1b518/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wshorten_64_to_32_VALID failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_070ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_070ce.dir/build.make CMakeFiles/cmTC_070ce.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_070ce.dir/src.cxx.o
+/usr/bin/c++     -DCXX_Wshorten_64_to_32_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wshorten-64-to-32 -o CMakeFiles/cmTC_070ce.dir/src.cxx.o -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_070ce.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_070ce.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_070ce.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_070ce/fast' failed
+make: *** [cmTC_070ce/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_Wextra_semi_VALID failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e4f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e4f6.dir/build.make CMakeFiles/cmTC_9e4f6.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9e4f6.dir/src.cxx.o
+/usr/bin/c++     -DCXX_Wextra_semi_VALID -fPIE   -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wextra-semi -o CMakeFiles/cmTC_9e4f6.dir/src.cxx.o -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wextra-semi'
+CMakeFiles/cmTC_9e4f6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9e4f6.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9e4f6.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9e4f6/fast' failed
+make: *** [cmTC_9e4f6/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_fmacro_prefix_map_old_new_VALID failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e394/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e394.dir/build.make CMakeFiles/cmTC_1e394.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e394.dir/src.c.o
+/usr/bin/cc    -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wshadow -Wno-pointer-sign -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -std=gnu99  -DC_fmacro_prefix_map_old_new_VALID -fPIE   -fmacro-prefix-map=old=new -o CMakeFiles/cmTC_1e394.dir/src.c.o   -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-fmacro-prefix-map=old=new'
+CMakeFiles/cmTC_1e394.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1e394.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1e394.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1e394/fast' failed
+make: *** [cmTC_1e394/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_fmacro_prefix_map_old_new_VALID failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b637a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b637a.dir/build.make CMakeFiles/cmTC_b637a.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b637a.dir/src.cxx.o
+/usr/bin/c++     -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768  -DCXX_fmacro_prefix_map_old_new_VALID -fPIE   -fmacro-prefix-map=old=new -o CMakeFiles/cmTC_b637a.dir/src.cxx.o -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-fmacro-prefix-map=old=new'
+CMakeFiles/cmTC_b637a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b637a.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b637a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b637a/fast' failed
+make: *** [cmTC_b637a/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the function pcap_open exists failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce451/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce451.dir/build.make CMakeFiles/cmTC_ce451.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce451.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wshadow -Wno-pointer-sign -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_open -fPIE   -o CMakeFiles/cmTC_ce451.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_ce451
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce451.dir/link.txt --verbose=1
+/usr/bin/cc  -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wshadow -Wno-pointer-sign -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -std=gnu99  -DCHECK_FUNCTION_EXISTS=pcap_open  -pie   CMakeFiles/cmTC_ce451.dir/CheckFunctionExists.c.o  -o cmTC_ce451 /usr/lib/x86_64-linux-gnu/libpcap.so 
+CMakeFiles/cmTC_ce451.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pcap_open'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ce451.dir/build.make:98: recipe for target 'cmTC_ce451' failed
+make[1]: *** [cmTC_ce451] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ce451/fast' failed
+make: *** [cmTC_ce451/fast] Error 2
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adf7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_adf7f.dir/build.make CMakeFiles/cmTC_adf7f.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adf7f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wshadow -Wno-pointer-sign -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -std=gnu99   -fPIE   -o CMakeFiles/cmTC_adf7f.dir/CheckIncludeFile.c.o   -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:24: fatal error: sys/sockio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_adf7f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_adf7f.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_adf7f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_adf7f/fast' failed
+make: *** [cmTC_adf7f/fast] Error 2
+
+
+Determining if the optreset exist failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18797/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18797.dir/build.make CMakeFiles/cmTC_18797.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18797.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wshadow -Wno-pointer-sign -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -std=gnu99   -fPIE   -o CMakeFiles/cmTC_18797.dir/CheckSymbolExists.c.o   -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘optreset’ undeclared (first use in this function)
+   return ((int*)(&optreset))[argc];
+                   ^
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+CMakeFiles/cmTC_18797.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_18797.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_18797.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_18797/fast' failed
+make: *** [cmTC_18797/fast] Error 2
+
+File /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <getopt.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef optreset
+  return ((int*)(&optreset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f59d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f59d.dir/build.make CMakeFiles/cmTC_7f59d.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f59d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wshadow -Wno-pointer-sign -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -std=gnu99  -DCHECK_FUNCTION_EXISTS=issetugid -fPIE   -o CMakeFiles/cmTC_7f59d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_7f59d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f59d.dir/link.txt --verbose=1
+/usr/bin/cc  -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wshadow -Wno-pointer-sign -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -std=gnu99  -DCHECK_FUNCTION_EXISTS=issetugid  -pie   CMakeFiles/cmTC_7f59d.dir/CheckFunctionExists.c.o  -o cmTC_7f59d 
+CMakeFiles/cmTC_7f59d.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `issetugid'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7f59d.dir/build.make:97: recipe for target 'cmTC_7f59d' failed
+make[1]: *** [cmTC_7f59d] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7f59d/fast' failed
+make: *** [cmTC_7f59d/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_SA_LEN failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_399ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_399ea.dir/build.make CMakeFiles/cmTC_399ea.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_399ea.dir/src.c.o
+/usr/bin/cc    -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wshadow -Wno-pointer-sign -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -std=gnu99  -DHAVE_STRUCT_SOCKADDR_SA_LEN -fPIE   -o CMakeFiles/cmTC_399ea.dir/src.c.o   -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main()
+     ^
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c:4:5: warning: old-style function definition [-Wold-style-definition]
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c:6:39: error: ‘struct sockaddr’ has no member named ‘sa_len’
+    (void)sizeof(((struct sockaddr *)0)->sa_len);
+                                       ^
+CMakeFiles/cmTC_399ea.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_399ea.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_399ea.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_399ea/fast' failed
+make: *** [cmTC_399ea/fast] Error 2
+
+Source file was:
+
+#include <sys/socket.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr *)0)->sa_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_FLAGS failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73d39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73d39.dir/build.make CMakeFiles/cmTC_73d39.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73d39.dir/src.c.o
+/usr/bin/cc    -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wshadow -Wno-pointer-sign -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -std=gnu99  -DHAVE_STRUCT_STAT_ST_FLAGS -fPIE   -o CMakeFiles/cmTC_73d39.dir/src.c.o   -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main()
+     ^
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c:4:5: warning: old-style function definition [-Wold-style-definition]
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c:6:35: error: ‘struct stat’ has no member named ‘st_flags’
+    (void)sizeof(((struct stat *)0)->st_flags);
+                                   ^
+CMakeFiles/cmTC_73d39.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_73d39.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_73d39.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_73d39/fast' failed
+make: *** [cmTC_73d39/fast] Error 2
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_flags);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_BIRTHTIME failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb718/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb718.dir/build.make CMakeFiles/cmTC_cb718.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb718.dir/src.c.o
+/usr/bin/cc    -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wshadow -Wno-pointer-sign -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -std=gnu99  -DHAVE_STRUCT_STAT_ST_BIRTHTIME -fPIE   -o CMakeFiles/cmTC_cb718.dir/src.c.o   -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main()
+     ^
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c:4:5: warning: old-style function definition [-Wold-style-definition]
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c:6:35: error: ‘struct stat’ has no member named ‘st_birthtime’
+    (void)sizeof(((struct stat *)0)->st_birthtime);
+                                   ^
+CMakeFiles/cmTC_cb718.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cb718.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_cb718.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cb718/fast' failed
+make: *** [cmTC_cb718/fast] Error 2
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_birthtime);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT___ST_BIRTHTIME failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7db7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7db7f.dir/build.make CMakeFiles/cmTC_7db7f.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7db7f.dir/src.c.o
+/usr/bin/cc    -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wshadow -Wno-pointer-sign -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -std=gnu99  -DHAVE_STRUCT_STAT___ST_BIRTHTIME -fPIE   -o CMakeFiles/cmTC_7db7f.dir/src.c.o   -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main()
+     ^
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c:4:5: warning: old-style function definition [-Wold-style-definition]
+/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c:6:35: error: ‘struct stat’ has no member named ‘__st_birthtime’
+    (void)sizeof(((struct stat *)0)->__st_birthtime);
+                                   ^
+CMakeFiles/cmTC_7db7f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7db7f.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7db7f.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7db7f/fast' failed
+make: *** [cmTC_7db7f/fast] Error 2
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->__st_birthtime);
+   return 0;
+}
+
+Performing C SOURCE FILE Test C_Wimplicit_fallthrough_VALID failed with the following output:
+Change Dir: /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89827/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89827.dir/build.make CMakeFiles/cmTC_89827.dir/build
+make[1]: Entering directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89827.dir/src.c.o
+/usr/bin/cc    -fvisibility=hidden  -fexcess-precision=fast -Wall -Wextra -Wendif-labels -Wpointer-arith -Wformat-security -fwrapv -fno-strict-overflow -Wvla -Waddress -Wattributes -Wdiv-by-zero -Wignored-qualifiers -Wpragmas -Wno-overlength-strings -Wno-long-long -Wframe-larger-than=32768 -Wc++-compat -Wshadow -Wno-pointer-sign -Wold-style-definition -Wstrict-prototypes -Wlogical-op -Wjump-misses-init -Werror=implicit -std=gnu99  -DC_Wimplicit_fallthrough_VALID -fPIE   -Wimplicit-fallthrough -o CMakeFiles/cmTC_89827.dir/src.c.o   -c /home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wimplicit-fallthrough'
+CMakeFiles/cmTC_89827.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_89827.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_89827.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/sjoshi/Downloads/wireshark-3.0.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_89827/fast' failed
+make: *** [cmTC_89827/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }

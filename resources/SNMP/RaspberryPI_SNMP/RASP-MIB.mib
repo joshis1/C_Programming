@@ -1,0 +1,33 @@
+RASP-MIB DEFINITIONS ::= BEGIN
+
+IMPORTS
+    OBJECT-TYPE, Integer32, 
+    MODULE-IDENTITY, enterprises                                    FROM SNMPv2-SMI
+    MODULE-COMPLIANCE, OBJECT-GROUP,TEXTUAL-CONVENTION              FROM SNMPv2-TC;
+
+raspMIB MODULE-IDENTITY
+     LAST-UPDATED "201804210000Z"            -- 21 April 2018, midnight
+     ORGANIZATION "Shreyas Home"
+     CONTACT-INFO "postal:   Shreyas Joshi
+                             LOWER HUTT 5010
+
+                   email:    shreyasjoshi15@gmail.com"
+
+     DESCRIPTION  "A simple mib for Raspberry PI - utility."
+
+    
+::={enterprises 9100}
+
+
+nodejsScalarObject  OBJECT IDENTIFIER ::= { raspMIB 1 }
+
+
+    nodejsStart OBJECT-TYPE
+        SYNTAX      Integer32
+        MAX-ACCESS  read-write
+        STATUS      current
+        DESCRIPTION "This starts/stops the node, 0 means stop and non-zero means start"
+    DEFVAL { 0 }
+    ::= { nodejsScalarObject 1 }
+    
+END

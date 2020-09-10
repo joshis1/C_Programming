@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "tshark-tap-register.c"
+  "CMakeFiles/tshark.dir/tshark-tap-register.c.o"
+  "CMakeFiles/tshark.dir/tshark.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-camelsrt.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-diameter-avp.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-expert.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-exportobject.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-endpoints.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-flow.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-follow.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-funnel.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-gsm_astat.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-hosts.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-httpstat.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-icmpstat.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-icmpv6stat.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-iostat.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-iousers.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-macltestat.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-protocolinfo.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-protohierstat.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-rlcltestat.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-rpcprogs.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-rtd.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-rtp.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-rtspstat.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-sctpchunkstat.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-simple_stattable.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-sipstat.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-smbsids.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-srt.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-stats_tree.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-sv.c.o"
+  "CMakeFiles/tshark.dir/ui/cli/tap-wspstat.c.o"
+  "run/tshark.pdb"
+  "run/tshark"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/tshark.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
