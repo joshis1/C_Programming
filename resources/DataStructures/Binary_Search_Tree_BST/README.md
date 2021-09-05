@@ -1,6 +1,6 @@
 **Trees**
 
-![tree diagram](https://github.com/joshis1/C_Programming/blob/master/resources/DataStructures/Trees/Tree_Reference.png)
+![tree diagram](https://github.com/joshis1/C_Programming/tree/master/resources/DataStructures/Binary_Search_Tree_BST/Tree_Reference.png)
 
  - Tree is a non-linear data structure.
    
