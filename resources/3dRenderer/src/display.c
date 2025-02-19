@@ -72,6 +72,14 @@ void draw_rect(int x, int y, int width, int height, uint32_t color)
 
 }
 
+void draw_pixel(int x, int y, uint32_t color)
+{
+   if(x < windows_max_width && y < windows_max_height)
+   {
+      gptr_colorBuffer[(windows_max_width*y) + x] = color;
+   }
+}
+
 
 bool initialize_window(void)
 {

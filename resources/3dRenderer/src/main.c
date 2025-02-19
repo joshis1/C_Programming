@@ -66,6 +66,9 @@ void render(void)
    SDL_RenderClear(gptr_renderer);
 
    draw_grid();
+   
+   draw_pixel(5,10,0xFF000AAA);
+   
    draw_rect(50,50, 80, 80, 0xFF000AAA);
    renderer_color_buffer();
 
